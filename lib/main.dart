@@ -10,9 +10,9 @@ class ChatApp extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
-      title: "Flutter Chat App!!!",
+      title: "Chat App",
       theme: ThemeData(primarySwatch: Colors.yellow),
-        home: ChatPage());
+        home: const ChatPage());
   }
   
 }
