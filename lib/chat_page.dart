@@ -29,11 +29,9 @@ class ChatPage extends StatelessWidget {
                     return ChatBubble(
                         alignment: index % 2 == 0
                             ? Alignment.centerLeft
-                        :Alignment.centerRight,
+                            : Alignment.centerRight,
                         message: "Hello, this is Linsha.");
-                  })
-              
-              ),
+                  })),
           ChatInput(),
         ],
       ),
