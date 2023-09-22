@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Let\'s sign you in!',
                 style: TextStyle(
                   fontSize: 30,
@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   letterSpacing: 0.5),
               ),
-              Text(
+              const Text(
                 'Welcome back! \nYou\'ve been missed!',
                 textAlign: TextAlign.center,
                 style: TextStyle(
